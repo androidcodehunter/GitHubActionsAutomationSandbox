@@ -13,6 +13,7 @@ android {
         versionCode getUniqueVersionCode()
         versionName getUserVisibleVersionName()
         versionNameSuffix getUserVisibleVersionSuffix()
+        
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -36,7 +37,7 @@ dependencies {
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-    
+
 }
 
 apply plugin: 'com.google.gms.google-services'
